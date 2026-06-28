@@ -44,7 +44,7 @@ cd scratch/it-ticket-dashboard
 Create a `.env` (or `.env.local`) file in the root of the project:
 
 ```env
-MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.example.mongodb.net/it_tickets?retryWrites=true&w=majority
+MONGODB_URI=mongodb://localhost:27017/it-tickets
 ```
 
 > [!NOTE]
@@ -60,7 +60,7 @@ npm install
 
 To populate your database with 20 realistic IT tickets:
 ```bash
-npx tsx scripts/seed.ts
+npx tsx scripts/start-mongo.ts
 ```
 
 ### 5. Run Locally
