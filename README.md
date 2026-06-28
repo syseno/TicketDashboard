@@ -1,6 +1,6 @@
 # Internal IT Ticket Dashboard
 
-A production-ready, highly-polished Internal IT Ticket Dashboard built with Next.js 15, React 19, Tailwind CSS, shadcn/ui, TanStack Table, TanStack Query, Zustand, and MongoDB.
+Internal IT Ticket Dashboard built with Next.js 15, React 19, Tailwind CSS, shadcn/ui, TanStack Table, TanStack Query, Zustand, and MongoDB.
 
 ## Features
 
